@@ -25,7 +25,7 @@ for x in list1:
     if x==4:
         break
     print(x, sum, end="      ")
-
+'''
 #This is for multiplication Calculation!!!!!!!!!!!!
 a=int(input("Enter the number:"))
 def multiplication(a):
@@ -39,6 +39,7 @@ def multiplication(a):
 m=multiplication(a)
 print(m)
 
+'''
 #This is for Odd and Even Calculation!!!!!!!!!!!!
 a=[10,15,20,30]
 def ll(a):
@@ -50,10 +51,9 @@ def ll(a):
         else:
             odd+=1
     print(even,odd)
+ll(a)
 
-s=ll(a)
-print(s)
-
+'''
 list0=['a','s','d','f','g','h']
 print(list0)
 print(list0[2])
@@ -62,6 +62,7 @@ print(list0[1:4])
 print(list0[2:])
 if "apple" in list0:
   print("Yes, 'apple' is in the fruits list")
+
 '''
 list1=[5,9,3,7,9,1]
 print(list1[-1],list1[3])
@@ -78,3 +79,4 @@ list1.extend(list2)
 print(list1)
 list1.sort()
 print(list1)
+'''
